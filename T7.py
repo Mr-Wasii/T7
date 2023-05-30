@@ -6,7 +6,11 @@ os.system('git pull -q;rm .rndm')
 
 try:
 
-	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct	from concurrent.futures import ThreadPoolExecutor as ThreadPool
+	import os,sys,timport os,requests,json,time,re,random,sys,uuid,string,subprocess
+
+		
+	
+	from concurrent.futures import ThreadPoolExecutor as ThreadPool
 
 except(ImportError):
 
